@@ -1,39 +1,39 @@
 'use strict'
 
-const numberOfSeries = +prompt("Nechta serial ko'rdingiz?", '')
+// const numberOfSeries = +prompt("Nechta serial ko'rdingiz?", '')
 
-const seriesDB = {
-  count: numberOfSeries,
-  series: {},
-  actors: {},
-  genres: [],
-  private: false,
-}
+// const seriesDB = {
+//   count: numberOfSeries,
+//   series: {},
+//   actors: {},
+//   genres: [],
+//   private: false,
+// }
 
-for (let i = 0; i < 2; i++) {
-  const a = prompt("Oxirgi ko'rgan serialingiz?"),
-    b = prompt('Nechi baxo berasiz?')
+// for (let i = 0; i < 2; i++) {
+//   const a = prompt("Oxirgi ko'rgan serialingiz?"),
+//     b = prompt('Nechi baxo berasiz?')
 
-  if (a != null && b != null && a != '' && b != '') {
-    seriesDB.series[a] = b
-    console.log('done')
-  } else {
-    console.log('error')
-    i--
-  }
-}
+//   if (a != null && b != null && a != '' && b != '') {
+//     seriesDB.series[a] = b
+//     console.log('done')
+//   } else {
+//     console.log('error')
+//     i--
+//   }
+// }
 
-if (seriesDB.count < 5) {
-  console.log('Kam serial ko’ripsiz')
-} else if (seriesDB.count >= 5 && seriesDB.count < 10) {
-  console.log('Siz classik tamoshabin ekansiz')
-} else if (seriesDB.count >= 10) {
-  console.log('Siz serialchi zvezda ekansiz')
-} else {
-  console.log('Error')
-}
+// if (seriesDB.count < 5) {
+//   console.log('Kam serial ko’ripsiz')
+// } else if (seriesDB.count >= 5 && seriesDB.count < 10) {
+//   console.log('Siz classik tamoshabin ekansiz')
+// } else if (seriesDB.count >= 10) {
+//   console.log('Siz serialchi zvezda ekansiz')
+// } else {
+//   console.log('Error')
+// }
 
-console.log(seriesDB)
+// console.log(seriesDB)
 
 // let a = 10
 // let i = 1
@@ -151,3 +151,27 @@ console.log(seriesDB)
 //     },
 // }
 // obj.func()
+
+
+
+
+
+
+
+
+
+// // const user = {
+// //         name : 'nurbek',
+// //         age : 17,
+// //         loatsion : "Andijon" ,
+// //         school : "Najot talim" ,
+// // }
+// // for(let keys in user){
+// //         console.log(user[keys])
+// // }
+
+
+// let arr = ["Nurbek","Davron","Rustam","Laziz","Bobur",]
+// for(let keys of arr){
+//         console.log(keys)
+// }
