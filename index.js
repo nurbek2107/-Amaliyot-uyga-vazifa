@@ -186,3 +186,29 @@
 // console.log(toqSonlar(array)); 
 
 
+// function son(a) {
+//     const ab = [];
+//     for(let i = 1; i <= a; i++) {
+//         if(i % 2 == 0){
+//             ab.push(i);
+//         }
+//     }
+//     return ab;
+// }
+
+// let arr = 4;
+// const result = son(arr);
+// console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
