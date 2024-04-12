@@ -175,3 +175,14 @@
 // for(let keys of arr){
 //         console.log(keys)
 // }
+
+// array for sikl
+// function toqSonlar(arr) {
+//     return arr.filter(num => num % 2 == 0);
+// }
+
+// // Test qilish
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// console.log(toqSonlar(array)); 
+
+
