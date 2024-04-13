@@ -205,7 +205,19 @@
 
 
 
+// function son(a,b){
+//     return a + b;
+// }
+// console.log(son(5 ,6))
 
+
+
+// let a = 1000
+// function solution(year) {
+//     let asr = year / 100;
+//     return asr;
+// }
+// console.log(solution(a)+'-asr'); 
 
 
 
