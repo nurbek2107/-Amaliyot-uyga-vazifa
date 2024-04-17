@@ -1,3 +1,7 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "-Amaliyot-uyga-vazifa"
+  "liveServer.settings.multiRootWorkspaceName": "-Amaliyot-uyga-vazifa",
+  "window.autoDetectColorScheme": true,
+  "window.closeWhenEmpty": true,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "explicit"
 }
